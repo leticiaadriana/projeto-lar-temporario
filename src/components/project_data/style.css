@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mochiy+Pop+One&display=swap');
+
+.info {
+    width: 100%;
+    background-color: #51459D;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 8px 0; 
+    white-space: nowrap;
+}
+
+.item {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.item h2 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    color: #8377D1;
+}
+
+.item p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 5px;
+    opacity: 0.9;
+    color: #8377D1;
+}
+
+@media (max-width: 768px) {
+    .item h2 {
+        font-size: 1.5rem;   
+    }
+    .item p {
+        font-size: 0.9rem;
+    }
+    .item {
+        margin: 0 10px;   
+    }
+}
+
+@media (max-width: 480px) {
+    .item h2 {
+        font-size: 1rem;
+    }
+    .item p {
+        font-size: 0.5rem;
+    }
+    .item {
+        margin: 0 5px;   
+    }
+}
+

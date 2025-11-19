@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mochiy+Pop+One&display=swap');
+
+.footer {
+    background-color: #312870;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.footer-left,
+.footer-right {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.divider {
+    height: 50px;
+    width: 1.5px;
+    background-color: #ffffff50;
+}
+
+.footer-copy {
+    font-size: 12px;
+    opacity: 0.8;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 15px;
+    }
+
+    .footer-title {
+        font-size: 18px;
+    }
+
+    .footer-left,
+    .footer-right {
+        font-size: 12px;
+    }
+
+    .footer-copy {
+        font-size: 11px;
+    }
+}
