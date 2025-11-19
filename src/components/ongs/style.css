@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mochiy+Pop+One&display=swap');
+
+.contribua_info {
+  background-color: #FFF7DD;
+  width: 100%;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: #1E005B;
+}
+
+.contribua_info h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contribua_info p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  max-width: 650px;
+}
+
+.ongs_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.left_ongs,
+.right_ongs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.left_ongs img,
+.right_ongs img {
+  width: 25vw;
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.left_ongs img:hover,
+.right_ongs img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .contribua_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contribua_info h2{
+    font-size: 24px;
+  }
+
+  .contribua_info p{
+    font-size: 16px;
+  }
+
+  .ongs_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left_ongs a,
+  .right_ongs a {
+    width: 60vw;
+  }
+
+  .left_ongs img,
+  .right_ongs img {
+    width: 45vw;
+    max-width: 180px;
+  }
+}
