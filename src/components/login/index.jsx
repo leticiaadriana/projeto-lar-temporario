@@ -26,8 +26,6 @@ export default function Login() {
       }
 
       localStorage.setItem("token", response.data.token);
-
-      alert("Login realizado com sucesso!");
       window.location.href = "/dashboard";
 
     } catch (err) {
@@ -41,7 +39,7 @@ export default function Login() {
             <img src={imgLogin} alt="gatinhos" className="cats" />
         </div>
         <div className="right">
-            <h2>Entrar 🐾</h2>
+            <h2>Entrar</h2>
 
             <form onSubmit={handleLogin}>
                 <label>E-mail:</label>
@@ -70,3 +68,4 @@ export default function Login() {
     </div>
   );
 }
+

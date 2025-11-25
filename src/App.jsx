@@ -21,7 +21,7 @@ function App () {
                     <Route path="/adoption" element={<Adoption/>}/>
                     <Route path="/about" element={<History/>}/>
                     <Route path="/ongs" element={<Ong/>}/>
-                    <Route path="/login-adm" element={<LoginAdmPage/>}/>
+                    <Route path="/login" element={<LoginAdmPage/>}/>
                 </Routes>
                 <Footer/>
             </div>
