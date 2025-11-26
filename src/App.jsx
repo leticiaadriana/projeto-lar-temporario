@@ -6,6 +6,7 @@ import History from "./pages/AboutPage.jsx"
 import Ong from "./pages/OngsPage.jsx"
 import LoginAdmPage from "./pages/LoginPage.jsx"
 import Footer from './components/footer'
+import Dashboard from "./pages/DashboardPage.jsx"
 
 function App () {
     const appStyle = {
@@ -22,6 +23,7 @@ function App () {
                     <Route path="/about" element={<History/>}/>
                     <Route path="/ongs" element={<Ong/>}/>
                     <Route path="/login" element={<LoginAdmPage/>}/>
+                    <Route path="/dashboard" element={<Dashboard/>}/>
                 </Routes>
                 <Footer/>
             </div>

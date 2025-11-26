@@ -1,0 +1,9 @@
+button {
+    background-color: #361c54;
+    font-family: "Mochiy Pop One";
+    color: white;
+    width: 2vw;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
