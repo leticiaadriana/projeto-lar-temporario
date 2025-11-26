@@ -8,12 +8,12 @@ const User = sequelize.define("User", {
     allowNull: false,
   },
   password: {
-    type: DataTypes.STRING, // senha hash
+    type: DataTypes.STRING,
     allowNull: false,
   },
   firstAccess: {
     type: DataTypes.BOOLEAN,
-    defaultValue: false, // usuário precisa alterar senha no primeiro login
+    defaultValue: false, 
   },
 });
 
