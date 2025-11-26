@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mochiy+Pop+One&display=swap');
+
+.cat-card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0px 6px 0px #f3a425;
+  transition: transform 0.2s;
+}
+
+.cat-card:hover {
+  transform: translateY(-5px);
+}
+
+.cat-card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cat-card-content {
+  padding: 10px;
+}
+
+.cat-card h3 {
+  font-size: 16px;
+  color: #361c54;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.cat-card-desc {
+  font-size: 12px;
+  color: #2f2d30;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+@media(max-width: 820px) {
+  .cat-card {
+    max-width: 70%;
+  }
+}

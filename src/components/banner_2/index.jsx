@@ -4,7 +4,6 @@ import './style.css'
 function Banner () {
     return (
         <div className='banner'>
-                <div className='divideBar'></div>
                 <img src={imgBanner} alt="Banner2"/>
                 <div className='divideBar'></div>
         </div>

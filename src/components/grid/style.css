@@ -1,0 +1,29 @@
+.cats-container {
+  padding: 40px 20px;
+  background: #ffd86b;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 26px;
+  margin-bottom: 40px;
+  color: #a02a00;
+}
+
+.cats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center; 
+}
+
+@media (max-width: 600px) {
+  .cats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    justify-items: center; 
+  }
+}
