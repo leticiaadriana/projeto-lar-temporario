@@ -74,7 +74,7 @@ function CatsGridAdmin() {
 
       <div className="cats-grid">
         <div className="cat-card add-card" onClick={handleNewCat}>
-          <img src={imgAdd} alt="Adicionar gato" className="add-card-img" />
+          <span className="add-icon">+</span>
         </div>
 
         {cats.map((cat) => (

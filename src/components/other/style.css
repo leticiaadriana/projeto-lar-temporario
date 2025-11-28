@@ -1,35 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mochiy+Pop+One&display=swap');
 
 .contribua_info {
-  display: flex;
   background-color: #FFF7DD;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px 10px;
   width: 100%;
-  flex-wrap: wrap; 
-  gap: 100px;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
   font-family: "Mochiy Pop One", sans-serif;
   color: #1E005B;
 }
 
-.contribua,
-.outrasInfos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.contribua h2,
-.outrasInfos h2 {
-  font-size: 1.8rem;
-  font-weight: 700;
+.contribua_info h2 {
+  font-size: 2rem;
   text-align: center;
 }
 
-.contribua img,
-.outrasInfos img {
+.contribua_info p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  max-width: 650px;
+}
+
+.info_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.left_info,
+.right_info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.left_info img,
+.right_info img {
   width: 25vw;
   height: auto;
   border-radius: 20px;
@@ -37,24 +50,22 @@
   cursor: pointer;
 }
 
-.contribua img:hover,
-.outrasInfos img:hover {
+.left_info img:hover,
+.right_info img:hover {
   transform: translateY(-4px);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+
 @media (max-width: 768px) {
-  .contribua_info {
+  .info_container {
     flex-direction: column;
-    align-items: center;
-    gap: 30px;
+    gap: 20px;
   }
-  .contribua h2,
-  .outrasInfos h2 {
-    font-size: 1.3rem;
-  }
-  .contribua img,
-  .outrasInfos img {
-    width: 45vw;
+
+  .left_info img,
+  .right_info img {
+    width: 60vw;
+    max-width: 300px;
   }
 }

@@ -104,19 +104,10 @@ function CatModal({ cat, onClose, onSave, onDelete }) {
             </button>
 
             {cat.id && (
-              <button
-                className="delete-btn"
-                style={{
-                  background: "#d9534f",
-                  padding: "12px 25px",
-                  borderRadius: "20px",
-                  color: "white",
-                  cursor: "pointer",
-                }}
-                onClick={handleDelete}
-              >
-                Deletar
-              </button>
+              <button className="adopt-btn" onClick={handleDelete}>
+                    Deletar
+             </button>
+
             )}
           </div>
 

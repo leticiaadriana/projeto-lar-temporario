@@ -10,7 +10,7 @@ function CatsGrid() {
   useEffect(() => {
     async function fetchCats() {
       try {
-        const response = await fetch("http://localhost:3001/cats"); 
+        const response = await fetch("http://localhost:3001/cats");
         const data = await response.json();
         setCats(data);
       } catch (error) {
