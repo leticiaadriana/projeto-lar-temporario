@@ -1,16 +1,19 @@
-# React + Vite
+# 🐱 Projeto Lar Temporário
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Projeto desenvolvido durante a matéria "Introdução ao Desenvolvimento WEB" - SCC0219 em 2025.2
 
-Currently, two official plugins are available:
+### Sobre:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto principal da matéria se baseou no desenvolvimento de uma aplicação WEB para algum cliente de nossa escolha. Dessa forma, o cliente escolhido foi o "Projeto Lar Temporário", uma ONG destinada a resgatar, cuidar e resolver processos de adoção de gatos em situação vulnerável.
 
-## React Compiler
+### Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto utiliza das seguintes linguagens/ferramentas:
 
-## Expanding the ESLint configuration
+- `React`, para o front-end;
+- `Node.js`, para o back-end;
+- `Sequelize`, para a comunicação com nosso banco de dados;
+- `PostgreSQL`, banco de nossa escolha para o desenvolvimento da aplicação.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Além de Bcrpyt para o armazenamento de senhas, entre outras bibliotecas NPM.
+

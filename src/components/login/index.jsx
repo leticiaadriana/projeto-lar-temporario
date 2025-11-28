@@ -18,10 +18,9 @@ export default function Login() {
         password,
       });
 
-      // Primeiro acesso
       if (response.data.firstAccess) {
         alert("Você precisa criar uma nova senha!");
-        window.location.href = "/reset-password"; // rota do frontend
+        window.location.href = "/reset-password"; 
         return;
       }
 

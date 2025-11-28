@@ -1,13 +1,11 @@
-import CatsGridAdmin from '../components/adminGrid'
-import AdminButton from '../components/adminButton'
+import CatsGridAdmin from '../components/adminGrid';
 
-function Dashboard () {
+function DashboardPage () {
     return(
         <>
-            <AdminButton/>
-            <CatsGridAdmin/>
+            <CatsGridAdmin></CatsGridAdmin>
         </>
     );
 }
 
-export default Dashboard;
+export default DashboardPage;

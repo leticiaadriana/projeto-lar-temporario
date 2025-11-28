@@ -7,9 +7,9 @@ function Header (){
         <header className="Header">
             <nav>
                 <Link to="/">Página Inicial</Link>
-                <Link to="/adoption">Adote um amigo!</Link>
+                <Link to="/adocao">Adote um amigo!</Link>
                 <Link to="/ongs">Outras ONG's</Link>
-                <Link to="/about">Sobre</Link>
+                <Link to="/sobre">Sobre</Link>
             </nav>
         </header>
         </>

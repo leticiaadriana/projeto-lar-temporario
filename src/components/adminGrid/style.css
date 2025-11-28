@@ -18,12 +18,46 @@
   gap: 25px;
   max-width: 1000px;
   margin: 0 auto;
-  justify-items: center; 
+  justify-items: center;
+}
+
+.add-card {
+  width: 180px;
+  height: 220px;
+  background-color: #fff7da;
+  border: 3px dashed #a02a00;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform .15s ease, background .2s ease;
+}
+
+.add-card:hover {
+  transform: scale(1.05);
+  background-color: #ffe9a6;
+}
+
+.add-card-content {
+  font-size: 60px;
+  font-weight: bold;
+  color: #a02a00;
+  user-select: none;
 }
 
 @media (max-width: 600px) {
   .cats-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-    justify-items: center; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: center;
+  }
+
+  .add-card {
+    width: 150px;
+    height: 190px;
+  }
+
+  .add-card-content {
+    font-size: 50px;
   }
 }
